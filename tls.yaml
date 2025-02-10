@@ -3,7 +3,7 @@ kind: Secret
 metadata:
   name: local-lco-earth-tls
 type: kubernetes.io/tls
-data:
+stringData:
   tls.crt: |
     -----BEGIN CERTIFICATE-----
     MIIE8jCCA9qgAwIBAgISBNX1jSoWmPYxyOE3ckOLh21sMA0GCSqGSIb3DQEBCwUA
